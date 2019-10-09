@@ -7,7 +7,7 @@ body{background: #eee;}
 .header__menu__item:hover{background: #000;}
 .header__icon-bar{display: block; float: right; padding: 20px; display: none}
 .header__icon-bar span{display: block; height: 3px; width: 30px; background: #fff; margin-bottom: 5px}
-.slider{display:block; margin: 50px 25%;}
+.slider{margin: 50px 25%;}
 
 
 
