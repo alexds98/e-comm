@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'fade',
+                slideWidth: 1000
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="header__logo">Logo</a>
+        <a href="" class="header__icon-bar">icon</a>
+        <ul class="header__menu">
+            <li class="header__menu__item"><a href="">Home</a></li>
+            <li class="header__menu__item"><a href="">Shop</a></li>
+            <li class="header__menu__item"><a href="">Carrello</a></li>
+        </ul>
+    </header>
+    <div class="home">
+        <div class="slider">
+            <div><img src="https://source.unsplash.com/random/800x600/?flowers" alt="MyImage1"></div>
+            <div><img src="https://source.unsplash.com/random/800x600/?nature" alt="MyImage2"></div>
+            <div><img src="https://source.unsplash.com/random/800x600/?forest" alt="MyImage3"></div>
+        </div>
+    </div>
+   
+</body>
+</html>
