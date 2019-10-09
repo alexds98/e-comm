@@ -1,0 +1,25 @@
+body{background: #eee;}
+.header{background: #333}
+.header__logo{color: #fff; float: left; display: block; padding: 20px;}
+.header__menu{float: right; margin: 0; padding: 0;}
+.header__menu__item{display: inline-block;}
+.header__menu__item a{color: #fff; display: block; padding: 20px;}
+.header__menu__item:hover{background: #000;}
+.header__icon-bar{display: block; float: right; padding: 20px; display: none}
+.header__icon-bar span{display: block; height: 3px; width: 30px; background: #fff; margin-bottom: 5px}
+.slider{display:block; margin: 50px 25%;}
+
+
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */
