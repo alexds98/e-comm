@@ -8,16 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.slider').bxSlider({
-                mode: 'fade',
-                speed: 900
-            });
-        });
-    </script>
 </head>
 <body>
     <header class="header clearfix">
@@ -40,5 +30,25 @@
             <div><img src="https://source.unsplash.com/random/800x600/?forest" alt="MyImage3"></div>
         </div>
     </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'fade',
+                speed: 900
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".header__icon-bar").click(function(e){
+                $(".header__menu").toggleClass('is-open');
+                e.preventDefault();
+            });
+        });
+    </script>
 </body>
 </html>
