@@ -3,6 +3,7 @@ body{background: #eee;}
 .header__logo{color: #fff; float: left; display: block; padding: 20px; margin-left: 15px;}
 .header__menu{float: right; margin: 0; padding: 0;}
 .header__menu__item{display: inline-block;}
+.header__menu__item__now{color: #fff; display: inline-block; padding: 20px; background: #000;}
 .header__menu__item a{color: #fff; display: block; padding: 20px; text-decoration: none;}
 .header__menu__item:hover{background: #000;}
 .header__icon-bar{display: block; float: right; padding: 20px; display: none;}
