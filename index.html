@@ -18,18 +18,80 @@
             <span></span>
         </a>
         <ul class="header__menu animate">
-            <li class="header__menu__item__now">Home</li>
-            <li class="header__menu__item"><a href="">Shop</a></li>
+            <li class="header__menu__item"><a href="#">Home</a></li>
+            <li class="header__menu__item"><a href="#shop">Shop</a></li>
             <li class="header__menu__item"><a href="">Carrello</a></li>
         </ul>
     </header>
-    <div class="home">
+    <div id="home">
         <div class="slider">
             <div><img src="https://source.unsplash.com/random/800x600/?flowers" alt="MyImage1"></div>
             <div><img src="https://source.unsplash.com/random/800x600/?nature" alt="MyImage2"></div>
             <div><img src="https://source.unsplash.com/random/800x600/?forest" alt="MyImage3"></div>
         </div>
     </div>
+
+    <h2 id="shop">Shop</h2>
+    <div class="shop__list">
+        <div class="shop__list__item">
+            <img class="shop__list__item__img" src="https://images-eu.ssl-images-amazon.com/images/I/51tEdeS3Y0L.jpg" alt="Harry-Potter-Maledizione-dellErede">
+            <div class="shop__list__item__description">
+                <h3>Harry Potter e la Maledizione dell'Erede parte uno e due: Script ufficiale della produzione originale del West End</h3>
+                <h6>di J.K. Rowling , John Tiffany, e al.</h6>
+                <h3>$11,19</h3>
+                <div class="shop__list__item__description__quantity">
+                    <label for="quantity">Quantità:</label>
+                    <select name="quantity" class="quantity">
+                        <option value="1" selected="">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <button class="add-to-cart">
+                    <em>Aggiungi al carrello</em>
+                    <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                       <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
+                    </svg>
+                 </button>
+            </div>
+        </div>
+        <div class="shop__list__item">
+            <img class="shop__list__item__img" src="https://images-eu.ssl-images-amazon.com/images/I/51tEdeS3Y0L.jpg" alt="Harry-Potter-Maledizione-dellErede">
+            <div class="shop__list__item__description">
+                <h3>Harry Potter e la Maledizione dell'Erede parte uno e due: Script ufficiale della produzione originale del West End</h3>
+                <h6>di J.K. Rowling , John Tiffany, e al.</h6>
+                <h3>$11,19</h3>
+                <div class="shop__list__item__description__quantity">
+                    <label for="quantity">Quantità:</label>
+                    <select name="quantity" class="quantity">
+                        <option value="1" selected="">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <button class="add-to-cart">
+                    <em>Aggiungi al carrello</em>
+                    <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                       <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
+                    </svg>
+                 </button>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
